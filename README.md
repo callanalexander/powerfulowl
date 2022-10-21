@@ -10,7 +10,7 @@ To use Powerful Owl Automated Detection Models:
 
 * Run DAS in GUI mode (see https://janclemenslab.org/das/quickstart.html) in the 'Predict' menu load either provided adult or chick .h5 models
 
-* In the 'Select Folder' direct to the data which you wish to run the models on. For annotation file format select csv. 
+* In the 'Select Folder' direct to the data which you wish to run the models on. For annotation file format select 'csv'. 
 
 * Ignore the settings under event detection. For the segment detection threshold we reccomend 0.90 as a starting point. 
 
