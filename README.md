@@ -8,7 +8,7 @@ To use Powerful Owl Automated Detection Models:
 
 * Download Anaconda and Install Deep Audio Segmenter: https://janclemenslab.org/das/installation.html
 
-* Run DAS in GUI mode (see https://janclemenslab.org/das/quickstart.html) in the 'Predict' menu load either provided adult or chick .h5 models. Make sure the corresponding paramaters file is in the same folder as the .h5 model.
+* Run DAS in GUI mode (see https://janclemenslab.org/das/quickstart.html) in the 'Predict' menu load either provided adult or chick .h5 models. Make sure the corresponding paramaters file is in the same folder as the .h5 model. For Adult detection we reccomend using Model B for minimal false positives as a starting point, and Model A if a more in-depth search is required. 
 
 * In the 'Select Folder' direct to the data which you wish to run the models on. For annotation file format select 'csv'. 
 
@@ -22,6 +22,14 @@ To use Powerful Owl Automated Detection Models:
 
 ### Generating Images and Raven files for Verification
 
+* Download latest R and R Studio versions
+* Place either Adult or Chick R script in the folder where you have run either the adult or chick recogniser
+* Run the R Script in the folder - this will generate spectrogram image files for all detections and Raven scripts for each file. 
+* The image files can then be rapidly browsed in file explorer
+
+## Disclaimer
+
+These Classifiers and Scripts have only been tested on Windows. However the models should also work on Mac and Linux
 
 ## Acknowledgements
 
