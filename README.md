@@ -8,7 +8,7 @@ To use Powerful Owl Automated Detection Models:
 
 * Download Anaconda and Install Deep Audio Segmenter: https://janclemenslab.org/das/installation.html
 
-* Run DAS in GUI mode (see https://janclemenslab.org/das/quickstart.html) in the 'Predict' menu load either provided adult or chick .h5 models
+* Run DAS in GUI mode (see https://janclemenslab.org/das/quickstart.html) in the 'Predict' menu load either provided adult or chick .h5 models. Make sure the corresponding paramaters file is in the same folder as the .h5 model.
 
 * In the 'Select Folder' direct to the data which you wish to run the models on. For annotation file format select 'csv'. 
 
