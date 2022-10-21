@@ -21,6 +21,6 @@ Set
 These values can be adjusted depended on the regional dialect of the Powerful Owls in your area. If you are experiencing a high number of short false positives you can increase the 'delete segments shorter than' value. 
 
 
-##Acknowledgements
+## Acknowledgements
 
 These models were built using Deep Audio Segmenter: [https://github.com/janclemenslab/das] (https://github.com/janclemenslab/das)
