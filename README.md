@@ -1,5 +1,4 @@
 # Powerful Owl Classifers
-## Read Me
 
 ## How to use
 
